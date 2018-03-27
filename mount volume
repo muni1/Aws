@@ -1,0 +1,29 @@
+# where your running instance needed check region location then that region select after create volume then add same instance 
+# region that location
+# Once done attach after check linux machine
+# Step 1:
+lsblk     -------> list showing disk list then find out
+
+-------------
+Step2 :
+------------
+# Sudo user not require sudo then cmd
+sudo mkfs.ext3 /dev/sdf  ----/dev/xvdf --list path
+----------
+step3
+---------
+mkdir /muni   ------------>create dir any location
+----------
+mount -t ext3 /dev/xvdf /muni
+mount -t ext3 /dev/xvdf /muni ----------> mounted
+----------
+step4
+----------
+df -h ------------> check disk attached or not 
+------
+step5
+--------
+finally sucessed checked and used dir location then add doc,file, packeage anthingthing finally 
+--------------
+
+
